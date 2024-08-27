@@ -12,7 +12,7 @@ To write a python program to perform stop and wait protocol
 ## client:
 #import socket
 s=socket.socket()
-s.bind(('localhost',8000))
+#s.bind(('localhost',8000))
 s.listen(5)
 c,addr=s.accept()
 while True:
