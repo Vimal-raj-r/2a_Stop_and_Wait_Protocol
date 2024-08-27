@@ -10,9 +10,9 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 ## client:
-#import socket
+import socket
 s=socket.socket()
-#s.bind(('localhost',8000))
+s.bind(('localhost',8000))
 s.listen(5)
 c,addr=s.accept()
 while True:
